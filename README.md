@@ -1,21 +1,28 @@
-# E-commerce Back End Starter Code
+# E-commerce Back End 
 
-User Story
+## Description
+This e-commerce back end was created to practice skills needed to develop a functioning back-end that uses CRUD operations and RESTful APIs. It taught me how to use MySQL in the terminal to run SQL queries, how to use Database Models and associations in Sequelize, how to use Express.js to building RESTful APIs in Node.js, how to protect data in an environment variable, how to seed a database and more.
 
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
+Demo video here: https://drive.google.com/file/d/15C9HoZHpTTjj_ikan3d2hpVt2XFb1ZOt/view?usp=sharing
 
-Acceptance Criteria
+## Installation
+MySQL: https://www.npmjs.com/package/mysql2
 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+Express: https://www.npmjs.com/package/express
+
+Sequelize: https://www.npmjs.com/package/sequelize
+
+dotenv: https://www.npmjs.com/package/dotenv
+
+## Usage
+![GIF displaying GET, PUT, POST and DELETE requests for Category](./assets/e-commerce-backend.gif)
+
+## Credits
+Starter code: https://github.com/coding-boot-camp/fantastic-umbrella
+
+Sequelize Associations: https://sequelize.org/docs/v6/core-concepts/assocs/
+
+Sequelize Model Querying: https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#simple-update-queries
+
+## License
+n/a
